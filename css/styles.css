@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fonts/roboto/Roboto-Bold.woff") format("woff");
+}
+#box-login{
+  margin-top: 100px;
+  margin-bottom: 280px;
+}
+.icon-file{
+  font-size: 800%;
+}
+.padding{
+  margin-top: 10%;
+}
+.user{
+  font-size: 800%;
+  color:white;
+}
+.bg-color{
+  background: #1DA9F8;
+}
+.center{
+  position: absolute;
+  left: 40%;
+}
+/* #registrar{
+  position: fixed;
+  left: 93%;
+  top: 94%;
+} */
+#body1 {
+  /* background: radial-gradient(red, yellow, green); */
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+canvas {
+	background-image: radial-gradient(#666, #333);
+}
+
+#instructions {
+	position: absolute;
+	color: #fff;
+	bottom: 0;
+	padding-bottom: 6px;
+	font-family: sans-serif;
+	width: 100%;
+	text-align: center;
+	pointer-events: none;
+}
